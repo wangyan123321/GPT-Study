@@ -2,7 +2,7 @@ import numpy as np
 import gensim
 
 print("加载fasttext模型中...")
-model = gensim.models.fasttext.load_facebook_model('cc.en.300.bin.gz')
+model = gensim.models.fasttext.load_facebook_model('cc.en.300-1.bin')
 print("加载fasttext模型完成")
 
 
